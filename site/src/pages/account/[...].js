@@ -5,4 +5,6 @@ export default function RedirectToAccountDashboard() {
   React.useEffect(() => {
     navigate('/account/dashboard', { replace: true });
   }, []);
+
+  return null;
 }
